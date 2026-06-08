@@ -77,7 +77,3 @@ python 05_web_map.py
 ![Spatial distribution maps](outputs/figures/01_layer_maps.png)
 ![SHAP summary](outputs/figures/03_shap_summary.png)
 
-## Note on AI assistance
-
-LLM tools were used as a coding assistant during development. The tool-calling
-module studies an LLM as the *object of analysis*, not as a writing aid.
