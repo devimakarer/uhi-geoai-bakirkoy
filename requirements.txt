@@ -1,0 +1,43 @@
+# Required libraries
+# Install: pip install -r requirements.txt
+
+# ── Core geospatial ───────────────────────────────────────────────────────────
+geopandas>=0.14
+rasterio>=1.3
+shapely>=2.0
+pyproj>=3.6
+fiona>=1.9
+osmnx>=1.9
+
+# ── Google Earth Engine ───────────────────────────────────────────────────────
+earthengine-api>=0.1.390
+geemap>=0.30
+
+# ── Spatial statistics ────────────────────────────────────────────────────────
+pysal>=23.0
+libpysal>=4.9
+esda>=2.5            # Moran's I, Geary's C
+
+# ── Machine learning ──────────────────────────────────────────────────────────
+scikit-learn>=1.4
+mgwr>=2.2            # GWRF / GWR (geographically weighted)
+shap>=0.45
+
+# ── Data processing ───────────────────────────────────────────────────────────
+numpy>=1.26
+pandas>=2.1
+scipy>=1.12
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.8
+seaborn>=0.13
+folium>=0.16         # interactive web map
+contextily>=1.5      # basemap tiles
+
+# ── LLM tool calling ───────────────────────────────────────────────────
+google-generativeai>=0.8   # Gemini API (free tier)
+python-dotenv>=1.0
+
+# ── HTTP / utilities ──────────────────────────────────────────────────────────
+requests>=2.31
+tqdm>=4.66
